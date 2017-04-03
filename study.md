@@ -50,7 +50,61 @@ A kitchen has many items.
     rack, and cinnamon, nutmeg, and vanilla on another shelf.
 
 ```json
-<!-- your answer here -->
+{
+  "cupboard"
+    "numberOfBowls": 8,
+    "numberOfPlates": 6
+}
+{
+  "electricStove"
+    "heatingElements": [
+      {
+        "extraLarge"
+      },
+      {
+        "large"
+      },
+      {
+        "medium"
+      },
+      {
+        "small"
+      }
+    ]
+  }
+  {
+    "spicesRack": [
+      {
+        "topShelf": [
+          {
+            "chives":
+          },
+          {
+            "lemonGrass":
+          },
+          {
+            "mint":
+          }
+        ]
+      },
+      {
+        "bottomShelf":[
+          {
+            "cinnamon":
+          },
+          {
+            "nutmeg":
+          },
+          {
+            "vanilla":
+          }
+        ]
+      }
+    ]
+
+  }
+
+
 ```
 
 ## Modeling Data Using JSON: Part II
@@ -62,15 +116,79 @@ delicious apple.
 Copy the JSON that you wrote for the previous question and include the new information about the kitchen.
 
 ```json
-<!-- your answer here -->
-```
+{
+  "fruitBasket": [
+    {
+      "fujiApples": 3
+    },
+    {
+      "galaApples": 7
+    },
+    {
+      "goldenDelicious": 1
+    },
+  ]
+}
+{
+  "cupboard"
+    "numberOfBowls": 8,
+    "numberOfPlates": 6
+}
+{
+  "electricStove"
+    "heatingElements": [
+      {
+        "extraLarge"
+      },
+      {
+        "large"
+      },
+      {
+        "medium"
+      },
+      {
+        "small"
+      }
+    ]
+  }
+  {
+    "spicesRack": [
+      {
+        "topShelf": [
+          {
+            "chives":
+          },
+          {
+            "lemonGrass":
+          },
+          {
+            "mint":
+          }
+        ]
+      },
+      {
+        "bottomShelf":[
+          {
+            "cinnamon":
+          },
+          {
+            "nutmeg":
+          },
+          {
+            "vanilla":
+          }
+        ]
+      }
+    ]
+
+  }```
 
 ## JSON Methods
 
 Can you write a method in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+No
 ```
 
 ## JSON Comments
@@ -78,5 +196,5 @@ Can you write a method in the JSON that you wrote above?
 Can you write comments in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+No
 ```
